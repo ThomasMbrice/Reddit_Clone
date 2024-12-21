@@ -1,0 +1,70 @@
+.profile-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-header {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-stats {
+    display: flex;
+    gap: 20px;
+    margin: 15px 0;
+}
+
+.profile-stat-item {
+    padding: 10px;
+    background-color: var(--light-grey);
+    border-radius: 5px;
+}
+
+.content-toggle {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.content-toggle button {
+    padding: 10px 20px;
+    background-color: var(--light-grey);
+}
+
+.content-toggle button.active {
+    background-color: var(--reddit-orange);
+    color: white;
+}
+
+.content-list {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.content-item {
+    padding: 15px;
+    border-bottom: 1px solid var(--light-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-item:last-child {
+    border-bottom: none;
+}
+
+.edit-delete-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-delete-buttons button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
